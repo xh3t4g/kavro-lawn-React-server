@@ -1,10 +1,14 @@
 import '../css/index.css'
+import css from '../css/Auth.module.css'
 
 export function HomePage ({setCurrentPage}) {
     return <>
     
     <header>
         <div className="header_container">
+            <div className={css['login-btn']}>
+                <button onClick={() => setCurrentPage('auth')}>login</button>
+            </div>
             <div className="header_text_container">
                 <div className="Kavro_title_header">
                     <span><h3>K</h3></span>
