@@ -37,7 +37,7 @@
     text-align: center;
 }
 
-#login, #password {
+#login, .password {
     border-radius: 2px;
     border: none;
     padding: 5px;
@@ -45,7 +45,7 @@
 
 
 
-#login::placeholder, #password::placeholder {
+#login::placeholder, .password::placeholder {
     color: rgb(155, 155, 155);
 }
 
@@ -67,6 +67,5 @@
 }
 
 .red {
-    border: 1px solid rgba(165, 42, 42, 0.674);
+    border: 2px solid red;
 }
-
